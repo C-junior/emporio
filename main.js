@@ -60,7 +60,7 @@
                         divProduct.innerHTML += `
                     <ul>
                         <li class= "card">
-                            <img title="${product.nome} " class="food" src="/assets/${product.img}.jpg" alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
+                            <img title="${product.nome} " class="food" src="./assets/${product.img}.jpg" alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
                             </li>
                         </ul>
                     `
