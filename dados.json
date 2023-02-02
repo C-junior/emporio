@@ -5,7 +5,7 @@
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 9.99",
             "disponivel": 1,
-            "promocao": "b",
+            "promocao": "npromo",
             "img": 1
         },
         {
@@ -13,7 +13,7 @@
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 12.99",
             "disponivel": 1,
-            "promocao": "a",
+            "promocao": "promo",
             "img": 2
         },
         {

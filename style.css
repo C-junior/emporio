@@ -158,10 +158,14 @@ img{
     margin-bottom: 16px;
 }
 
-.btn {
+.filter-btn {
     padding: 10px;
     background-color:rgb(73, 43, 9) ;
     color: aliceblue;
     width: fit-content;
     border-radius: 8px;
+}
+
+.active{
+    color: red;
 }

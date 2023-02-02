@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+</script>
     <title>Empório da Caca </title>
 </head>
 <body>
     <div id="app">
 <div id="cards">
     <div class="btns">
-<div class="btn" id="btn">
+<div class="filter-btn main-btn active" id="promo-btn">
     Promoção
 </div>
-<div class="btn">
+<div class="filter-btn main-btn">
     Populares
 </div>
 </div>
@@ -23,9 +31,8 @@
 
     </div>
 
-    <script>
-     
-    </script>
+
+
 <script src="main.js"></script>
 </body>
 </html>
