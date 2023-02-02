@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiers</title>
+</head>
+<body>
+ <div id="usuarios">
+
+    </div>
+
+    <script>
+        let divUsuarios = document.querySelector("#usuarios")
+    
+        fetch("dados.json").then((response) => {
+            response.json().then((dados) => {
+                dados.usuarios.map((usuario) => {
+                    divUsuarios.innerHTML += `
+                    <ul>
+                        <li>
+                            ${usuario.nome} -  ${usuario.tier} - <img title="Seidr" src="https://fire-emblem-heroes.com/common/img/sp/index/characterSlide/character_thumb_${usuario.img}.png" alt=""></img>
+                            </li>
+                        </ul>
+                    `
+                })           
+            })
+        })
+    </script>
+    
+</body>
+</html>

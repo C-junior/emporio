@@ -1,0 +1,37 @@
+{
+    "products": [
+        {
+            "nome":"Caldo",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": "b",
+            "img": 1
+        },
+        {
+            "nome":"Panqueca de Frango",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 12.99",
+            "disponivel": 1,
+            "promocao": "a",
+            "img": 2
+        },
+        {
+            "nome":"Panqueca de Carne",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 19.99",
+            "disponivel": 1,
+            "promocao": "a",
+            "img": 3
+            
+        },
+        {
+            "nome":"Tiandra",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 0,
+            "promocao": "a",
+            "img": 2
+        }
+    ]
+}
