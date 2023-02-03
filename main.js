@@ -64,7 +64,7 @@
                         divAll.innerHTML += `
                     <ul>
                         <li class= "card">
-                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
+                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3>  <div class="price">${product.price} </div></div>
                             </li>
                         </ul>
                     `
@@ -86,7 +86,7 @@
                         divProduct.innerHTML += `
                         <ul>
                         <li class= "card">
-                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
+                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3>  <div class="price">${product.price} </div></div>
                             </li>
                         </ul>
                     `
@@ -107,7 +107,7 @@
                         divBebidas.innerHTML += `
                         <ul>
                         <li class= "card">
-                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
+                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3>  <div class="price">${product.price} </div></div>
                             </li>
                         </ul>
                     `
@@ -126,9 +126,9 @@ fetch(url).then((response) => {
                     if (product.promocao == 2){
                     if (product.disponivel == 1){
                         divChoco.innerHTML += `
-                        <ul>
+                      <ul>
                         <li class= "card">
-                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3> <p> ${product.desc} </p> <div class="price">${product.price} </div></div>
+                            <img title="${product.nome} " class="food" src= ${product.img} alt=""></img><div class="content">  <h3> ${product.nome}  </h3>  <div class="price">${product.price} </div></div>
                             </li>
                         </ul>
                     `
