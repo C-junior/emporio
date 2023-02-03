@@ -113,7 +113,7 @@ img{
     width: 150px;  
     height: 100px;
     border-radius: 8px;
-    
+    margin-top: 8px;
     filter: drop-shadow(5px 5px 2px rgb(48, 48, 48));
 }
 
