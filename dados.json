@@ -5,7 +5,7 @@
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 9.99",
             "disponivel": 1,
-            "promocao": "npromo",
+            "promocao": 13,
             "img": 1
         },
         {
@@ -13,7 +13,23 @@
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 12.99",
             "disponivel": 1,
-            "promocao": "promo",
+            "promocao": 13,
+            "img": 2
+        },
+        {
+            "nome":"Laka",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": 13,
+            "img": 2
+        },
+        {
+            "nome":"Tiandra",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": 1,
             "img": 2
         },
         {
@@ -21,7 +37,7 @@
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 19.99",
             "disponivel": 1,
-            "promocao": "a",
+            "promocao": 1,
             "img": 3
             
         },
@@ -29,8 +45,32 @@
             "nome":"Tiandra",
             "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
             "price": "R$ 9.99",
-            "disponivel": 0,
-            "promocao": "a",
+            "disponivel": 1,
+            "promocao": 1,
+            "img": 2
+        },
+        {
+            "nome":"Laka",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": 2,
+            "img": 2
+        },
+        {
+            "nome":"Trufado",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": 2,
+            "img": 2
+        },
+        {
+            "nome":"Laka",
+            "desc": "Nossa panqueca preparada com uma massa super fina, recheada com frango desfiado.",
+            "price": "R$ 9.99",
+            "disponivel": 1,
+            "promocao": 2,
             "img": 2
         }
     ]

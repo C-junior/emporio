@@ -110,9 +110,10 @@ body{
 
 
 img{
-    width: 150px;
+    width: 150px;  
     height: 100px;
     border-radius: 8px;
+    
     filter: drop-shadow(5px 5px 2px rgb(48, 48, 48));
 }
 
@@ -167,5 +168,11 @@ img{
 }
 
 .active{
-    color: red;
+    color: rgb(73, 43, 9) ;
+    background-color: aliceblue;
+    border: rgb(73, 43, 9) 2px solid;
+}
+
+.tabcontent{
+    display: none;
 }

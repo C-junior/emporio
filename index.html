@@ -4,35 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("p").click(function(){
-    $(this).hide();
-  });
-});
-</script>
+    <link rel="stylesheet" href="style.css"> 
+
     <title>Empório da Caca </title>
 </head>
 <body>
     <div id="app">
 <div id="cards">
-    <div class="btns">
-<div class="filter-btn main-btn active" id="promo-btn">
+    <div class="btns tabs">
+<div class="filter-btn tablinks" id="defaultOpen" onclick="openCity (event, 'all')">
+            Todas
+        </div>
+<div class="filter-btn tablinks "  onclick="openCity (event, 'promo')">
     Promoção
 </div>
-<div class="filter-btn main-btn">
-    Populares
+<div class="filter-btn tablinks"  onclick="openCity (event, 'bebidas')">
+    Bebidas
 </div>
+<div class="filter-btn tablinks"  onclick="openCity (event, 'choco')">
+    Chocolates
 </div>
+
+</div>
+
+    <div id="all" class="tabcontent" >
+
+    </div>
+    <div id="promo" class="tabcontent">
+    
+    </div>
+    
+    <div id="bebidas" class="tabcontent">
+
+    </div>
+
+    <div id="choco" class="tabcontent">
+
+    </div>
+
+
 </div>
 
 
     </div>
 
 
+<script>
+  
 
+    
+</script>
 <script src="main.js"></script>
 </body>
 </html>
